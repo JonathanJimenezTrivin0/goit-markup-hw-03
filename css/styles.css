@@ -1,0 +1,378 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.nombre_Studio {
+  color: #2196f3;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.titulo_principal {
+  color: #ffffff;
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  font-size: 44px;
+}
+
+.boton-Titulo-Principal {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  position: absolute;
+  margin-top: 190px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.onHover-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.onHover-link.current {
+  color: #757575;
+}
+
+.onHover-link:hover,
+.onHover-link:focus {
+  color: #2196f3;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+
+.header-link.current {
+  color: #2196f3;
+}
+
+.header-link {
+  color: #212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.subtitulos {
+  color: #212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.subparrafos {
+  color: #757575;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.titulos-secundarios {
+  color: #212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.container-footer {
+  width: 1600px;
+  height: 252px;
+  padding: 50px 10%;
+  background: #2f303a;
+}
+
+.letras-pie-pagina {
+  color: #2196f3;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.pie-de-pagina {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2258px;
+}
+
+.datos-contacto {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  flex-direction: column;
+  align-content: center;
+}
+
+.boton-Titulo-Principal-Portafolio {
+  color: #212121;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.boton-Titulo-Principal-Portafolio:hover,
+.boton-Titulo-Principal-Portafolio:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* Clases Normalize */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos FLex */
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 1600px;
+  height: 70px;
+}
+
+.header-navigation {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-contact {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.pr-2 {
+  padding-right: 3rem;
+}
+
+.nombre_Studio {
+  text-decoration: none;
+}
+
+.portfolio-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.titulo_principal {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.caracteristicas-ser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulos-secundarios {
+  display: flex;
+  justify-content: center;
+}
+
+.equipo {
+  color: #212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -10%;
+}
+
+.cards-container {
+  width: 1600px;
+  height: 648px;
+  background-color: #f5f4fa;
+  padding: 100px 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.card {
+  margin-top: 120px;
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  align-items: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card > img {
+  width: 100%;
+  height: auto;
+}
+
+.nombre-integrantes {
+  color: #212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.card-footer {
+  margin-top: 20px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Flex Portfolio */
+.cards-container-portfolio {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 100px 20vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-portfolio {
+  margin-top: 30px;
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-portfolio > img {
+  width: 100%;
+  height: auto;
+}
+
+.card-footer-portfolio {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.main-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.servicio {
+  width: 1600px;
+}
+
+.caracteristicas-servicio {
+  margin-top: 95px;
+  display: flex;
+  justify-content: center;
+}
+
+.catalogo-productos {
+  width: 1600px;
+  margin-top: 190px;
+}
+
+.servicio-caracteristicas {
+  width: 1600px;
+}
